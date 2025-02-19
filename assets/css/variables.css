@@ -1,0 +1,39 @@
+:root {
+    --white: #FFFFFF;
+    --background-color: #F8EEFF;
+    --grayish-purple: #8E819E;
+    --primary-color: #6C63FF;
+    --dark-purple: #3A1D4D;
+    --secondary-color: #FF6584;
+    --work-sans: 'Work Sans', sans-serif;
+}
+
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.grayish-purple {
+    color: var(--grayish-purple);
+}
+
+.dark-purple {
+    color: var(--dark-purple);
+}
+
+
+.font-xs {
+    font:700 3.5rem var(--work-sans);
+}
+
+.font-x {
+    font: 600 1.125rem var(--work-sans);
+}
+
+.font-s {
+    font: 400 1rem/150% var(--work-sans);
+}
