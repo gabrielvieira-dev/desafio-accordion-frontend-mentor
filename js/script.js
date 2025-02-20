@@ -13,9 +13,9 @@ function questionOpen(event) {
     question.classList.toggle('active', active);
 
     if (active) {
-        img.src = '../assets/images/icon-minus.svg';
+        img.setAttribute('src', '../assets/images/icon-minus.svg');
     } else {
-        img.src = '../assets/images/icon-plus.svg';
+        img.setAttribute('src', '../assets/images/icon-plus.svg'); 
     }
 }
 
